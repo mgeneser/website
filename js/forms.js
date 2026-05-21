@@ -2,7 +2,7 @@
 // NailDrip — Form Submission Handler
 // ============================================
 // Replace this URL with your deployed Google Apps Script URL
-const SCRIPT_URL = 'https://script.google.com/a/macros/naildrip.co/s/AKfycbyjhpJOWtcijqcPHnxLWwptQcN46uQbVrIt7y3O9Lji0n0mLAiRIgvnnAY8FFhMvOe4Yw/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzMMiAVSJjCpH869XcQCsBVQ2gPdioUbVBBxLcwfVQAkw4N7vLAWZ0T5ZEGhpib5UwOIg/exec';
 
 document.addEventListener('DOMContentLoaded', function () {
   const forms = document.querySelectorAll('.email-form');
