@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NailDrip — Design, Remix, and Share Nail Art</title>
+  <meta name="description" content="A creative platform for designing, remixing, sharing, and discovering nail art. Made by you, inspired by the community.">
+  <meta property="og:title" content="NailDrip — Design, Remix, and Share Nail Art">
+  <meta property="og:description" content="A creative platform for designing, remixing, sharing, and discovering nail art.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://naildrip.co/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="css/style.css?v=17">
+</head>
+<body>
+
+  <!-- Announcement Marquee -->
+  <div class="announcement-bar">
+    <div class="marquee-track">
+      <span>Join the waitlist to get early access</span>
+      <span>Join the waitlist to get early access</span>
+      <span>Join the waitlist to get early access</span>
+      <span>Join the waitlist to get early access</span>
+      <span>Join the waitlist to get early access</span>
+      <span>Join the waitlist to get early access</span>
+      <span>Join the waitlist to get early access</span>
+      <span>Join the waitlist to get early access</span>
+      <span>Join the waitlist to get early access</span>
+      <span>Join the waitlist to get early access</span>
+      <span>Join the waitlist to get early access</span>
+      <span>Join the waitlist to get early access</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="logo">
+        <img src="images/naildrip_logo-neon.svg" alt="NailDrip" height="32">
+      </a>
+      <nav class="desktop-nav">
+        <a href="/about.html">About</a>
+        <a href="/faq.html">FAQ</a>
+        <a href="/support.html">Support</a>
+      </nav>
+      <button class="nav-toggle" onclick="document.querySelector('.mobile-nav').classList.toggle('open')" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+    <nav class="mobile-nav">
+      <a href="/about.html">About</a>
+      <a href="/faq.html">FAQ</a>
+      <a href="/support.html">Support</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <div class="hero-card">
+      <div class="hero-image">
+        <img src="images/naildrip-halftonehand.png" alt="Illustrated hand with colorful nail art">
+      </div>
+      <div class="hero-text">
+        <h1>Design. Remix. Drip.</h1>
+        <p>Create nail looks, remix what inspires you, and share your style. A creative platform for nail art — made by you, fueled by the community.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Waitlist Section -->
+  <section class="section-lime">
+    <div class="waitlist-card">
+      <h2>Get early access</h2>
+      <p class="subtitle">Be the first to design, remix, and share.</p>
+      <form class="email-form" action="#">
+        <input type="email" name="email" placeholder="Email" required>
+        <button type="submit" class="btn-pink">Join the waitlist</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Purple Banner -->
+  <section class="section-purple">
+    <div class="container">
+      <h2>Be kind, give credit, celebrate creativity.</h2>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <p>Create it, remix it, wear it. NailDrip is where nail art ideas come to life. Join the waitlist for early access and first dibs on everything.</p>
+        </div>
+        <div class="footer-newsletter">
+          <h3>NailDrip Newsletter</h3>
+          <form class="email-form" action="#">
+            <input type="email" name="email" placeholder="email@example.com" required>
+            <button type="submit" class="btn-pink">Subscribe</button>
+          </form>
+        </div>
+        <div class="footer-links">
+          <a href="/about.html">About</a>
+          <a href="/faq.html">FAQ</a>
+          <a href="/support.html">Support</a>
+          <a href="/privacy.html">Privacy Policy</a>
+          <a href="/terms.html">Terms of Service</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 NailDrip. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/forms.js"></script>
+</body>
+</html>
